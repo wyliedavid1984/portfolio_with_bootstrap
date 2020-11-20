@@ -1,25 +1,91 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+        integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/global.css">
+    <link rel="stylesheet" href="assets/css/index.css">
     <title>David Wylie</title>
 </head>
 <header>
-    <h1> David Wylie</h1>
-    <!-- needs to be responsive a hamburger menu for smaller screen med, sm, xs -->
-    <nav>
-
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark mb-4">
+        <a class="navbar-brand name" href="#">David Wylie</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
+            aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse links" id="navbarCollapse">
+            <ul class="navbar-nav ml-auto form-inline">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button"
+                        aria-haspopup="true" aria-expanded="false">Other Links</a>
+                    <div class="dropdown-menu drop">
+                        <a class="dropdown-item" href="https://github.com/wyliedavid1984">GitHub</a>
+                        <a class="dropdown-item" href="https://www.linkedin.com/in/david-wylie-1826b41b8/">LinkedIn</a>
+                        <a class="dropdown-item" href="https://stackoverflow.com/users/14358043/david-wylie">Stack Overflow</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="portfolio.html">Portfolio</a>
+                </li>            
+            </ul>
+        </div>
     </nav>
-
 </header>
+
 <body>
-    <h2>About Me</h2>
+    <main class="bg=light">
+        <h2>About Me</h2>
+        
+        <section class="media conatiner-fluid d-flex">
+            <img src="assets/images/proPic.jpg"
+                class="align-self-start mr-3" width="200px" height="200px" alt="...">
+            <section class="media-body">
+                <p class="d-flex flex-wrap">
+                    Hi, My name is David Wylie. I grew up in a military family and had the opportunity to see some of the
+                    world.
+                    It also started my interest in travel and food. I like cooking as much as I like eating food. I went to
+                    college for hospitaliy and worked in food service for about 21 years.
+                </p>
+                <p class="d-flex flex-wrap">
+                    As much as I liked working in restaurants. I wanted to switch to something with more consistency in my
+                    regular day to day life. I've alway had an interest in technology, and thought I would try to pursue a
+                    career in it. This brought me to U Penn Coding Bootcamp which will help to propel me into the next
+                    Chapter
+                    of my Life.
+                </p>
+                <p class="float-left">
+                    I'm hoping that some of my skills from the restaurant industry will be able to transfer over to the tech
+                    world. I have been working/managing teams for the last 15 years. I know how integral teams are in the
+                    tech world. With my role as manager, I have had to hone my communication skills by all my interaction
+                    with staff and guest.
+                </p>
+            </section>
+        </section>
+    </main>
     <section>
 
+
     </section>
+    <!-- Bootstraps JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous">
+    </script>
 </body>
-<footer>
-    
+<footer class="sticky-bottom">
+
 </footer>
+
 </html>
