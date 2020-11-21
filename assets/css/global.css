@@ -4,13 +4,17 @@
 }
 
 main {
-    background: red;
     margin: 0 20 0 20;
 }
 
 .border{
-    border: 2px solid lightgray;
+    border: 2px solid blue;
+    background-image: url("../images/creampaper.png");
 }
 hr {
     color: black;
+}
+
+body {
+    background-image: url("../images/more-leaves.png");
 }
