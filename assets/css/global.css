@@ -1,20 +1,29 @@
+nav {
+    background-color: rgb(197, 240, 197);
+}
 .name {
     padding: 15px;
-    background-color: forestgreen;   
+    background-color: rgb(241, 241, 215);   
 }
+
 
 main {
     margin: 0 20 0 20;
 }
 
 .border{
-    border: 2px solid blue;
+    border: 10px solid darkblue;
     background-image: url("../images/creampaper.png");
-}
-hr {
-    color: black;
 }
 
 body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
     background-image: url("../images/more-leaves.png");
+}
+
+
+html{
+    height: 100%;
 }
