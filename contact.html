@@ -12,12 +12,8 @@
     <link rel="stylesheet" href="assets/css/contact.css">
     <title>Contact Page</title>
 </head>
-
 <header>
-
-
-    <!-- needs to be responsive a hamburger menu for smaller screen med, sm, xs -->
-    <nav class="navbar navbar-expand-md navbar-dark bg-dark mb-4">
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark pb-2">
         <a class="navbar-brand name" href="#">David Wylie</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
             aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
@@ -30,59 +26,59 @@
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="contact.html">Contact</a>
-                </li> 
-                 <li class="nav-item dropdown">
-                   <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button"
-                       aria-haspopup="true" aria-expanded="false">Other Links</a>
-                   <div class="dropdown-menu drop">
-                       <a class="dropdown-item" href="https://github.com/wyliedavid1984">GitHub</a>
-                       <a class="dropdown-item" href="https://www.linkedin.com/in/david-wylie-1826b41b8/">LinkedIn</a>
-                       <a class="dropdown-item" href="https://stackoverflow.com/users/14358043/david-wylie">Stack Overflow</a>
-                   </div>
-               </li>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button"
+                        aria-haspopup="true" aria-expanded="false">Other Links</a>
+                    <div class="dropdown-menu drop">
+                        <a class="dropdown-item" href="https://github.com/wyliedavid1984">GitHub</a>
+                        <a class="dropdown-item" href="https://www.linkedin.com/in/david-wylie-1826b41b8/">LinkedIn</a>
+                        <a class="dropdown-item" href="https://stackoverflow.com/users/14358043/david-wylie">Stack
+                            Overflow</a>
+                    </div>
+                </li>
                 <li class="nav-item">
                     <a class="nav-link" href="portfolio.html">Portfolio</a>
                 </li>
-             
             </ul>
-
         </div>
     </nav>
 </header>
 
 <body>
-    <main>
+    <main class="p-2 pb-4 pt-5">
+        <section class="container">
+            <section class="row mx-sm-1 p-3 col-md-7 border ">
+                <h2 class="pt-3 mb-1 col-11">Contact</h2>
+                <hr class="ml-0 pb-2 col-10 pt-0 mt-1">
+                <form class="mx-2 px-1">
+                    <div class="form-group">
+                        <label for="firstName">First Name:</label>
+                        <input type="text" class="form-control" id="firstName" placeholder="Enter First Name">
+                    </div>
+                    <div class="form-group">
+                        <label for="lastName">Last Name:</label>
+                        <input type="text" class="form-control" id="lastName" placeholder="Enter Last Name">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email:</label>
+                        <input type="email" class="form-control" id="email" aria-describedby="emailHelp"
+                            placeholder="Enter Email Address">
+                        <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone
+                            else.</small>
+                    </div>
 
-        <h2>Contact</h2>
-        <form>
-            <div class="form-group">
-                <label for="firstName">First Name:</label>
-                <input type="text" class="form-control" id="firstName" placeholder="Enter First Name">
-            </div>
-            <div class="form-group">
-                <label for="lastName">Last Name:</label>
-                <input type="text" class="form-control" id="lastName" placeholder="Enter Last Name">
-            </div>
-            <div class="form-group">
-                <label for="email">Email:</label>
-                <input type="email" class="form-control" id="email" aria-describedby="emailHelp"
-                    placeholder="Enter Email Address">
-                <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone
-                    else.</small>
-            </div>
-
-            <div class="form-group">
-                <label for="exampleFormControlTextarea1">Additional Info</label>
-                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"
-                    placeholder="Any additional info or Questions"></textarea>
-            </div>
-            <button type="submit" class="btn btn-primary">Submit</button>
-        </form>
-
+                    <div class="form-group">
+                        <label for="exampleFormControlTextarea1">Additional Info</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"
+                            placeholder="Any additional info or Questions"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </form>
+            </section>
+        </section>
     </main>
-    <div class="d-inline-flex p-2 bd-highlight border">
-        I'm an inline flexbox container!</div>
-    <div class="d-inline-flex p-2 bd-highlight border-primary">I'm an inline flexbox container!</div>
+
     <!-- Bootstraps JS -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
@@ -92,10 +88,6 @@
     </script>
 </body>
 <footer class="sticky-bottom">
-    <div class="container-sm">100% wide until small breakpoint</div>
-    <div class="container-md">100% wide until medium breakpoint</div>
-    <div class="container-lg">100% wide until large breakpoint</div>
-    <div class="container-xl">100% wide until extra large breakpoint</div>
 
 </footer>
 

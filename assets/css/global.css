@@ -3,6 +3,14 @@
     background-color: forestgreen;   
 }
 
-.links {
-    margin-right: 15px;
+main {
+    background: red;
+    margin: 0 20 0 20;
+}
+
+.border{
+    border: 2px solid lightgray;
+}
+hr {
+    color: black;
 }
