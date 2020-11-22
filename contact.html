@@ -64,50 +64,47 @@
 
 <body>
     <main class="px-sm-4 px-2 pb-4 pt-5">
-        <!-- For some reason the next section runs over the area that is allowed for it and make the page seem lopsided versus centered -->
-        <section class="container col-md-9 mx-sm-1 p-3">
+        
+        <section class="container col-md-9 mx-sm-4 p-3 contBackground">
 
-            <section class="row col-md-11 py-3 border mZero">
-                <h2 class="col-11 mb-1 py-3">Contact</h2>
-                <hr class="col-11 mt-1 ml-0 pt-0 pb-2">
+            <h2 class="col-11 mb-1 py-3">Contact</h2>
+            <hr class="col-11 mt-1 ml-0 pt-0 pb-2">
 
-                <form class="col-md-9 mx-2 px-1">
+            <form class="col-md-9 mx-2 px-1">
 
-                    <p class="form-group">
-                        <label for="firstName">
-                            <span> Name:</span>
-                        </label>
-                        <input type="text" class="form-control" id="firstName" placeholder="Enter First Name">
+                <p class="form-group">
+                    <label for="firstName">
+                        <span> Name:</span>
+                    </label>
+                    <input type="text" class="form-control" id="firstName" placeholder="Enter First Name">
+                </p>
+
+                <p class="form-group">
+                    <label for="lastName">
+                        <span>Name:</span> 
+                    </label>
+                    <input type="text" class="form-control" id="lastName" placeholder="Enter Last Name">
+                </p>
+
+                <p class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" class="form-control" id="email" aria-describedby="emailHelp"
+                        placeholder="Enter Email Address">
+                    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone
+                        else.</small>
                     </p>
 
-                    <p class="form-group">
-                        <label for="lastName">
-                            <span>Name:</span> 
-                        </label>
-                        <input type="text" class="form-control" id="lastName" placeholder="Enter Last Name">
-                    </p>
+                <p class="form-group">
+                    <label for="exampleFormControlTextarea1">
+                        <span>Additional Info</span>
+                    </label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"
+                        placeholder="Any additional info or Questions"></textarea>
+                </p>
 
-                    <p class="form-group">
-                        <label for="email">Email:</label>
-                        <input type="email" class="form-control" id="email" aria-describedby="emailHelp"
-                            placeholder="Enter Email Address">
-                        <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone
-                            else.</small>
-                        </p>
+                <button type="submit" class="btn btn-primary">Submit</button>
 
-                    <p class="form-group">
-                        <label for="exampleFormControlTextarea1">
-                            <span>Additional Info</span>
-                        </label>
-                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"
-                            placeholder="Any additional info or Questions"></textarea>
-                    </p>
-
-                    <button type="submit" class="btn btn-primary">Submit</button>
-
-                </form>
-
-            </section>
+            </form>
 
         </section>
     </main>
