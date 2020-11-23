@@ -5,31 +5,33 @@ In this repository you will find three linked pages that mainly use bootstrap fo
 
 ## screen shots
 
+<details>
+  <summary>Finished project</summary>
+![400portfolio](https://user-images.githubusercontent.com/53025663/100025733-5f88d480-2db7-11eb-8023-0ac5b320d681.png)
+![768portfolio](https://user-images.githubusercontent.com/53025663/100025778-76c7c200-2db7-11eb-8e76-5f51c46b7339.png)
+![992portfolio](https://user-images.githubusercontent.com/53025663/100025799-834c1a80-2db7-11eb-884a-337b29dc2461.png)
+![finishedcontact](https://user-images.githubusercontent.com/53025663/100025820-8f37dc80-2db7-11eb-8ea1-34ea412f252d.png)
+![finishedhome](https://user-images.githubusercontent.com/53025663/100025839-96f78100-2db7-11eb-9c14-1e981a4604cc.png)
+![finishedportfolio](https://user-images.githubusercontent.com/53025663/100025874-a971ba80-2db7-11eb-84ae-ca9dc399b385.png)
+
+</details>
+
+
+
+
+![navSkel](https://user-images.githubusercontent.com/53025663/100025970-d6be6880-2db7-11eb-87b6-669b1e8b3575.png)
+![contactSkel](https://user-images.githubusercontent.com/53025663/100025917-bbebf400-2db7-11eb-997f-448e3f644e3d.png)
+![indexSkel](https://user-images.githubusercontent.com/53025663/100025951-cc9c6a00-2db7-11eb-9be9-99e208ac14d7.png)
+![portfolioSkel](https://user-images.githubusercontent.com/53025663/100026005-e9d13880-2db7-11eb-9db1-487c923e3d79.png)
+
+
+![spaced out html](https://user-images.githubusercontent.com/53025663/100026035-fd7c9f00-2db7-11eb-9320-4a074df2c027.png)
+![validator](https://user-images.githubusercontent.com/53025663/100026072-17b67d00-2db8-11eb-947f-75c0abf1a032.png)
+
+
+
+
 
 
     
-    ![Start of Contacts page](./assests/images/screenshots/contactSkel.png)
-
-    ![Start of index](./assets/images/screenshots/indexSkel.png)
-    
-    ![Start of navbar](./assets/images/screenshots/navSkel.png)
-    ![Start of portfolio](./assets/images/screenshots/portfolioSkel.png)
-
-
-
-
-    ![Start of Contacts page](./assests/images/screenshots/spacedouthtml.png)
-    ![Start of Contacts page](./assests/images/screenshots/validator.png)  
-
-
-
-    
-    ![Start of Contacts page](./assests/images/screenshots/finishedcontact.png)
-    ![Start of Contacts page](./assests/images/screenshots/finishedhome.png)
-    ![Start of Contacts page](./assests/images/screenshots/finishedportfolio.png)
-    ![Start of Contacts page](./assests/images/screenshots/400portfolio.png)
-    ![Start of Contacts page](./assests/images/screenshots/768portfolio.png)
-    ![Start of Contacts page](./assests/images/screenshots/992portfolio.png)
-
-
-
+   
