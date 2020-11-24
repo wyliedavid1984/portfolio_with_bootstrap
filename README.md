@@ -1,7 +1,7 @@
 # portfolio_with_bootstrap
 
 ## Description
-In this repository you will find three linked pages that mainly use bootstrap for the build and style.  I did however have to do a little extra styling and that is linked in a css sheet.  I did a lot of trial and errors testing out the classes of bootstrap. While also gaining a lot knowledge along the way in bootstrap and general layouts of grid systems.  The three pages are a home/index, portfolio, and a non-functioning contact.  I've also included some external links outside of the repository.  I have screenshot some of the progress along the way as well as finished products.  There are several screen shots of code and finished sites below. 
+In this repository you will find three linked pages that mainly use bootstrap for the build and style.  I did however have to do a little extra styling and that is linked in a css sheet.  I did a lot of trial and errors testing out the classes of bootstrap.  While also gaining a lot knowledge along the way in bootstrap and general layouts of grid systems.  Especially when dealing with responsiveness of the pages.  Each page is responsive and adapts to different screen sizes.  The three pages are a home/index, portfolio, and a non-functioning contact.  I've also included some external links outside of the repository.  I have screenshot some of the progress along the way as well as finished products.  There are several screen shots of code and finished sites below. 
 
 ## screen shots
 <details>
@@ -34,8 +34,8 @@ In this repository you will find three linked pages that mainly use bootstrap fo
 ## Credits
 
 * [W3 schools tutorial on HTML semantics and Grid layout](https://www.w3schools.com/html/html5_semantic_elements.asp)
-* [CDN from bootstrap with the library reference](https://getbootstrap.com/)
+* [CDN from Bootstrap with the library reference](https://getbootstrap.com/)
 * [CDN from Font Awesome with library reference](https://fontawesome.com/v4.7.0/icons/)
-
+* [Mock project photos from placeholder](https://placeholder.com/text/)
     
    
