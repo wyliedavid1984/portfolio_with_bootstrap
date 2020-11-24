@@ -1,3 +1,4 @@
+/* some global styling */
 header {
     margin-top: 10px;
     margin-bottom: 100px;
@@ -15,11 +16,11 @@ body {
     background-image: url("../images/more-leaves.png");
 }
 
+/* Mostly just background color or images and picture sizing */
 .name {
     padding: 15px;
     background-color: rgb(241, 241, 215);   
 }
-
 
 .contBackground{
     background-image: url("../images/creampaper.png");
@@ -33,6 +34,5 @@ body {
 .refactoredpic {
     height: 75%;
     width: 75%;
-    
 }
 
