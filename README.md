@@ -40,4 +40,4 @@ In this repository you will find three linked pages that mainly use bootstrap fo
     
 ## Link
 
-*[The Portfolio Website](https://wyliedavid1984.github.io/portfolio_with_bootstrap/)
+* [The Portfolio Website](https://wyliedavid1984.github.io/portfolio_with_bootstrap/)
